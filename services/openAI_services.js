@@ -4,7 +4,7 @@ const client = new OpenAI({
   apiKey: process.env.AI_URL,
 });
 
-const askAI = async (message) => {
+const askAIService = async (message) => {
   try {
     const response = await client.chat.completions.create({
       model: "gpt-4o-mini",
@@ -30,4 +30,4 @@ const askAI = async (message) => {
   }
 };
 
-module.exports = askAI;
+module.exports = askAIService;
