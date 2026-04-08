@@ -32,7 +32,7 @@ DB_URI=your_mongo_url
 4. Run `npm start`
 
 ## API
-POST /chat  
+POST /api/chat  
 
 Request:
 {
