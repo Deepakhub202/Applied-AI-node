@@ -1,5 +1,6 @@
 const askAIService = require("../services/openAI_services");
 const Chat = require("../models/chatSchema");
+const mongoose = require("mongoose");
 
 const chat = async (req, res, next) => {
     try {
